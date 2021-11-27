@@ -11,7 +11,9 @@
   "author": "Jenkin <jiancunge.com@gmail.com>",
   "homepage": "https://github.com/JianCunGe/mobula#readme",
   "license": "ISC",
-  "main": "lib/core.js",
+  "bin": {
+    "manta": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -33,6 +35,6 @@
     "url": "https://github.com/JianCunGe/mobula/issues"
   },
   "dependencies": {
-    "@mobula/utils": "^1.0.0"
+    "@mobula/utils": "file:../utils"
   }
 }
