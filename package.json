@@ -26,7 +26,6 @@
     "url": "https://github.com/JianCunGe/mobula/issues"
   },
   "devDependencies": {
-    "@mobula/core": "0.0.2",
     "eslint": "^8.3.0",
     "lerna": "^4.0.0"
   }
