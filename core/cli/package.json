@@ -1,0 +1,27 @@
+{
+  "name": "@mobula/core",
+  "version": "0.0.1",
+  "bin": {
+    "mobula": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JianCunGe/mobula.git"
+  },
+  "scripts": {
+    "test": "echo \"Run tests from mobula\""
+  },
+  "bugs": {
+    "url": "https://github.com/JianCunGe/mobula/issues"
+  },
+  "dependencies": {
+    "@mobula/utils": "file:../../utils/utils"
+  }
+}

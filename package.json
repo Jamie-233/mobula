@@ -1,16 +1,25 @@
 {
   "name": "mobula",
   "version": "1.0.0",
-  "description": "",
+  "description": "mobula reminder",
+  "keywords": [
+    "reminder",
+    "alarm",
+    "clock",
+    "notification"
+  ],
+  "author": "Jenkin <jiancunge.com@gmail.com>",
+  "homepage": "https://github.com/JianCunGe/mobula#readme",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "eslint": "^8.3.0",
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "npmlog": "^6.0.0"
   }
 }
