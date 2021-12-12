@@ -12,14 +12,22 @@
   "homepage": "https://github.com/JianCunGe/mobula#readme",
   "license": "ISC",
   "main": "index.js",
+  "bin": {
+    "mobula": "core/cli/bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JianCunGe/mobula.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JianCunGe/mobula/issues"
+  },
   "devDependencies": {
+    "@mobula/core": "0.0.2",
     "eslint": "^8.3.0",
     "lerna": "^4.0.0"
-  },
-  "dependencies": {
-    "npmlog": "^6.0.0"
   }
 }
